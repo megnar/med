@@ -35,7 +35,7 @@ The config file specifies paths to datasets, tool credentials, and output direct
 The **HANCOCK** dataset contains SVS-format tissue micro arrays (TMAs). To prepare it:
 
 1. Follow the original [HANCOCK GitHub repository](https://github.com/ankilab/HANCOCK_MultimodalDataset) to extract tiles and compute cell densities using QuPath.
-2. Reproduce our ABMIL training by extracting tumor centers and cell density measurements for **Blocks 1 and 2**.
+2. Reproduce ABMIL training by extracting tumor centers and cell density measurements for **Blocks 1 and 2**. The pretrained ABMIL checkpoint is not included in this text-focused copy.
 3. Download the dataset files from the [HANCOCK project page](https://hancock.research.fau.eu/download) to replicate the question curation used in the benchmark.
 
 ---
@@ -62,12 +62,7 @@ To enable the **DrugBank tool** for longitudinal drug lookups:
 
 ## 📑 Agent Logs
 
-We provide full logs of agent interactions for all models evaluated in the paper:
-
-* `agent_logs_hancock/`: Multimodal evaluation logs (HANCOCK)
-* `agent_logs_msk/`: Longitudinal evaluation logs (MSK-CHORD)
-
-Each log includes all agent–LLM conversations, intermediate reasoning steps, and generated answers.
+`agent_logs_msk/` contains the five highest-accuracy original MSK runs by scored answers, plus the local Qwen and Gemini experiments. HANCOCK logs are not included in this text-focused copy; the complete original logs are available in the upstream MTBBench repository. Case logs contain agent–model conversations and scored answers; local experiments may use different protocols.
 
 ---
 
