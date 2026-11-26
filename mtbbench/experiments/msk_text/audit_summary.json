@@ -1,0 +1,375 @@
+{
+  "source_file_sha256": {
+    "nodes.tab": "18ebcf24887e8529b95c7a7c96c81089cc7c5ba22d53a5c05d56480331961af8",
+    "drug_features.tab": "d9db67a3ae9e4e1bea6f50ac55c9e3152c30f9a128b45cec0d5b003fabdc30c6"
+  },
+  "node_count_drug": 7957,
+  "drug_names_with_features_min_4_chars": 7952,
+  "matched_names": 30,
+  "cases_with_match": 39,
+  "matching_method": "case-insensitive exact name with word boundaries, names >=4 chars; .txt files only, no alias mapping",
+  "most_common": [
+    {
+      "name": "fluorouracil",
+      "cases": 24,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "leucovorin",
+      "cases": 23,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "oxaliplatin",
+      "cases": 23,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "irinotecan",
+      "cases": 16,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "capecitabine",
+      "cases": 14,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "gemcitabine",
+      "cases": 9,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "paclitaxel",
+      "cases": 9,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "pemetrexed",
+      "cases": 8,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "cisplatin",
+      "cases": 7,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "carboplatin",
+      "cases": 6,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "leuprolide",
+      "cases": 2,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "doxorubicin",
+      "cases": 2,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "cyclophosphamide",
+      "cases": 2,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "floxuridine",
+      "cases": 2,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "bevacizumab",
+      "cases": 2,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "bicalutamide",
+      "cases": 1,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "letrozole",
+      "cases": 1,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "palbociclib",
+      "cases": 1,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "zoledronic acid",
+      "cases": 1,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "tamoxifen",
+      "cases": 1,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "methotrexate",
+      "cases": 1,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "trametinib",
+      "cases": 1,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "dabrafenib",
+      "cases": 1,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": false
+    },
+    {
+      "name": "nivolumab",
+      "cases": 1,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "osimertinib",
+      "cases": 1,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "degarelix",
+      "cases": 1,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "lenvatinib",
+      "cases": 1,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "pembrolizumab",
+      "cases": 1,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "rituximab",
+      "cases": 1,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    },
+    {
+      "name": "vincristine",
+      "cases": 1,
+      "has_description": true,
+      "has_indication": true,
+      "has_mechanism": true
+    }
+  ],
+  "matched_features": {
+    "pemetrexed": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "cisplatin": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "gemcitabine": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "capecitabine": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "leucovorin": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "fluorouracil": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "oxaliplatin": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "irinotecan": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "paclitaxel": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "bicalutamide": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "leuprolide": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "letrozole": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "palbociclib": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "zoledronic acid": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "doxorubicin": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "cyclophosphamide": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "tamoxifen": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "methotrexate": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "trametinib": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "dabrafenib": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": false
+    },
+    "nivolumab": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "floxuridine": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "osimertinib": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "carboplatin": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "degarelix": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "lenvatinib": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "pembrolizumab": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "bevacizumab": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "rituximab": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    },
+    "vincristine": {
+      "description": true,
+      "indication": true,
+      "mechanism_of_action": true
+    }
+  }
+}

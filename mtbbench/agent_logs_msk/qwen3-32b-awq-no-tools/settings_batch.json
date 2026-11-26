@@ -1,0 +1,11 @@
+{
+  "model": "Qwen/Qwen3-32B-AWQ",
+  "max_model_len": 16384,
+  "max_tokens": 1536,
+  "temperature": 0.0,
+  "csv_enabled": true,
+  "agent": "MTBBench DoctorAgent (no external tools)",
+  "device": "A100 40GB",
+  "max_num_seqs": 4,
+  "batch_collection_seconds": 2
+}
